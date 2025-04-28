@@ -84,9 +84,3 @@ In my free time, I like exploring web design, motion graphics, digital sketching
 
 ---
 
----
-
-## ✍️ Reflections
-
-### 📚 Design Research in Social Robotics (Chapter 8)
-> Good design
