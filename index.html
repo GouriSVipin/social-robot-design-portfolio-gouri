@@ -3,15 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Social Robot Design Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Social Robot Design Portfolio – Gouri Suja Vipin</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #61dafb;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+      background: white;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    img {
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #222;
+      color: #fff;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>Social Robot Design Portfolio</h1>
     <nav>
       <a href="#about">About Me</a>
-      <a href="#case">Case Description</a>
+      <a href="#case">Case</a>
       <a href="#tools">Design Tools</a>
       <a href="#reflections">Reflections</a>
     </nav>
@@ -25,69 +69,74 @@
   </section>
 
   <section id="case">
-    <h2>Case Description: ROSE the Care Robot</h2>
-    <p>ROSE, developed by Heemskerk Innovative Technology, is a care robot used in elderly care homes. It supports both nursing and nutrition-related tasks: monitoring vital signs, tracking meals, reminding residents to take medication, and offering social interaction. ROSE helps reduce the workload of staff and improves the consistency of care delivery.</p>
+    <h2>Case Description – ROSE the Care Robot</h2>
+    <p>ROSE, developed by Heemskerk Innovative Technology, is a care robot used in elderly care homes. In our scenario, ROSE acts as both a nursing assistant and nutritionist—monitoring vital signs, tracking food intake, reminding medication, and offering companionship. By automating routine tasks, ROSE helps reduce caregiver workload and ensures consistent and personalized care.</p>
   </section>
 
   <section id="tools">
-    <h2>Design Tools</h2>
+    <h2>Design Tools Used</h2>
     <ul>
       <li><strong>Scenario-Based Tool:</strong> Mind Map → Storyboard → Scratch prototype</li>
-      <li><strong>Expression-Based Tool:</strong> Uses color + sound to communicate clearly, including for users with impairments</li>
-      <li><strong>Embodiment-Based Tool:</strong> Card game for designing physical robot appearance</li>
-      <li><strong>Behavior-Based Tool:</strong> Behavior Tree with Context Swap for failure-testing</li>
-      <li><strong>Ethics-Based Tool:</strong> Mini Ethics Canvas for team-wide ethical consideration</li>
+      <li><strong>Expression-Based Tool:</strong> Uses color and sound to express emotion and intent, aiding inclusive communication</li>
+      <li><strong>Embodiment-Based Tool:</strong> Card game for building robot appearance through iterative user-centered choices</li>
+      <li><strong>Behavior-Based Tool:</strong> Behavior Tree with Context Swap to simulate unexpected events and test response design</li>
+      <li><strong>Ethics-Based Tool:</strong> Mini Ethics Canvas worksheet for teams to assess social and ethical implications</li>
     </ul>
 
     <h3>Mind Map of Problem Space</h3>
-    <img src="assets/images/mindmap.png" alt="Mind Map" width="80%"/>
+    <p>We used a mind map to explore the challenges in elderly nutrition and care. (Insert image if available.)</p>
+    <img src="assets/images/mindmap.png" alt="Mind Map" />
 
     <h3>Functional Breakdown</h3>
     <ul>
-      <li>Vital Monitoring</li>
-      <li>Nutrition Analysis</li>
-      <li>Medication Reminder</li>
-      <li>Social Interaction</li>
-      <li>Caregiver Support</li>
+      <li>Monitor vitals (e.g., heart rate, hydration)</li>
+      <li>Track meal intake and dietary needs</li>
+      <li>Remind residents of medication schedules</li>
+      <li>Engage in basic conversation and emotional support</li>
+      <li>Report anomalies to staff in real-time</li>
     </ul>
 
-    <h3>Experimental Approach</h3>
-    <p>Simulate elderly interaction scenarios, introduce failure cases in Scratch prototypes, evaluate feedback and adjust accordingly.</p>
+    <h3>Potential Experimental Approach</h3>
+    <p>
+      We propose testing ROSE through simulation in a mock elderly care scenario using Scratch and behavior trees. Variables such as interruption handling, emotional engagement, and nutrition tracking accuracy will be evaluated. We also plan to use surveys to assess the perceived usefulness and acceptance among test participants.
+    </p>
 
-    <h3>Pitch Slide</h3>
-    <img src="assets/images/slide.png" alt="Project Pitch Slide" width="80%"/>
+    <h3>Pitch / Slide</h3>
+    <p>Our one-slide pitch introduces ROSE’s value in easing caregiver stress while improving health tracking consistency.</p>
+    <img src="assets/images/slide.png" alt="Project Slide" />
   </section>
 
   <section id="reflections">
     <h2>Reflections</h2>
 
-    <h3>Design Research & HRI</h3>
-    <p>Social robot design deeply aligns with HRI principles — scenario-building, embodiment and behavior mapping directly enhance interactive experiences.</p>
+    <h3>How is Design Research Linked to HRI?</h3>
+    <p>HRI relies on iterative, user-centered design—scenario mapping, physical embodiment, and emotional expression are all rooted in design research approaches.</p>
 
-    <h3>Digital (AI) vs Embodiment</h3>
-    <p>Embodiment strengthens emotional connection, trust, and perceived intelligence—more than voice-only assistants can achieve.</p>
+    <h3>Digital AI vs. Embodiment</h3>
+    <p>Embodiment adds physical presence, which creates trust, realism, and emotional bonding, unlike disembodied voice assistants.</p>
 
-    <h3>Why is 'HER' (not) a Compelling Argument?</h3>
-    <p>While ‘HER’ shows emotional bonds with AI, it lacks the complexities of physical interaction and social context inherent in HRI.</p>
+    <h3>Why is 'HER' (Not) a Compelling Argument?</h3>
+    <p>‘HER’ explores emotional AI relationships, but lacks the tactile, contextual, and ethical complexity found in real-world HRI.</p>
 
-    <h3>Robot Revolution — When?</h3>
-    <p>We are in a slow, silent revolution — care robots, warehouse bots, and home assistants are already shaping new norms.</p>
+    <h3>Reflection: The Robot Revolution – When?</h3>
+    <p>The robot revolution is already happening in quiet sectors—elder care, warehousing, personal assistants. Mass acceptance hinges on trust and usability.</p>
 
-    <h3>Dinosaur Hotel (Henn-na Hotel)</h3>
-    <p>The Japanese robot hotel failed because robots couldn't adapt to real-time guest needs — showing limits of static automation.</p>
+    <h3>Reflection: The Dinosaur Hotel</h3>
+    <p>The Henn-na Hotel in Japan replaced most of its robots with humans. It exposed the limitations of overly rigid automation in hospitality, where adaptability and empathy matter.</p>
 
-    <h3>Nabaztag</h3>
-    <p>Although simple, this WiFi rabbit robot pioneered ambient communication. Its failure shows the need for deeper usefulness and interaction.</p>
+    <h3>Reflection: Nabaztag</h3>
+    <p>This iconic Wi-Fi rabbit pioneered ambient interaction. Despite its simplicity, it inspired deeper research into minimal affective communication in robotics.</p>
 
-    <h3>CuddleBits</h3>
-    <p>Minimal, emotional robots are powerful — showing how simplicity can outperform complexity when designed well.</p>
+    <h3>Reflection: CuddleBits</h3>
+    <p>Minimal robots like CuddleBits succeed emotionally despite lacking complex features. It highlights how "less" can feel more relatable.</p>
 
-    <h3>Be Right Back..</h3>
-    <p>Social robots cannot fully substitute human presence, but can bridge emotional and functional gaps in short spans.</p>
+    <h3>Reflection: Be-right-back...</h3>
+    <p>Social robots can fill temporary emotional gaps or practical roles, but shouldn't replace deep human presence—design must respect that balance.</p>
   </section>
 
   <footer>
-    <p>Made by Gouri Suja Vipin | Social Robot Design 2025</p>
+    <p>© 2025 Gouri Suja Vipin | Social Robot Design Portfolio</p>
   </footer>
+
 </body>
 </html>
